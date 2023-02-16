@@ -59,8 +59,8 @@ const insertUser = async(req,res)=>{
 
 const loginload = async (req,res)=>{
     try{
-        // res.render('login');
-        res.render('home');
+       
+        res.render('login');
     }
     catch(error){
         console.log(error.message);
@@ -87,7 +87,7 @@ const verifylogin = async(req,res)=>{
     //    {
 //            
            
-           res.redirect('/home');
+           res.redirect('home');
        }
        else{
         res.render('login',{message:"raghu is not correct"});
