@@ -90,7 +90,7 @@ const verifylogin = async(req,res)=>{
            res.redirect('/home');
        }
        else{
-        res.render('login',{message:"email is not correct"});
+        res.render('login',{message:"raghu is not correct"});
        }
     }
 // else
