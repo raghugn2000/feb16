@@ -85,7 +85,7 @@ const verifylogin = async(req,res)=>{
 
     //    if(passcheck)
     //    {
-           req.session.user_id = userdata._id;
+//            
            
            res.redirect('/home');
        }
