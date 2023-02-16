@@ -60,7 +60,7 @@ const insertUser = async(req,res)=>{
 const loginload = async (req,res)=>{
     try{
         // res.render('login');
-        res.render('login');
+        res.render('home');
     }
     catch(error){
         console.log(error.message);
@@ -95,7 +95,7 @@ const verifylogin = async(req,res)=>{
     }
 // else
 // {
-//     res.render('login',{message:"user name not there"})
+//     res.render('home',{message:"user name not there"})
 // }
 
     // }
