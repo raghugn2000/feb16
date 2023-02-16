@@ -86,8 +86,8 @@ const verifylogin = async(req,res)=>{
     //    if(passcheck)
     //    {
 //            
-           
-           res.redirect('home');
+            res.render('home');
+          
        }
        else{
         res.render('login',{message:"raghu is not correct"});
