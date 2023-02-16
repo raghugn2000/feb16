@@ -43,7 +43,7 @@ const insertUser = async(req,res)=>{
 // const userData = await user.save();
 // if(userData)
 // {
-    res.render('registration',{message:"register sucessfully"});
+    res.render('registration',{message:"register raghu  sucessfully"});
 // }
 // else
 // {
@@ -79,7 +79,7 @@ const verifylogin = async(req,res)=>{
 // console.log(userdata.email)
 
 
-   if(email == "raghu" )
+   if(email == "raghu1" )
    {
     //    const passcheck = await bcrypt.compare(password, userdata.password)
 
